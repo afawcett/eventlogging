@@ -12,6 +12,7 @@
         <members>LogViewer</members>
         <members>streaming</members>
         <members>streamingDemo</members>
+        <members>streamingEvent</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
