@@ -1,0 +1,18 @@
+<project name="eventlogging" xmlns:sf="antlib:com.salesforce" basedir=".">
+	
+	<property name="sf.server" value="https://login.salesforce.com"/>
+
+	<typedef 
+		uri="antlib:com.salesforce" 
+		resource="com/salesforce/antlib.xml" 
+		classpath="${basedir}/lib/ant-salesforce.jar"/>
+	
+	<target name="retrieve"> 
+    	<sf:retrieve  
+        	username="${sf.username}"  
+        	password="${sf.password}"  
+        	retrieveTarget="${basedir}/src"
+        	unpackaged="${basedir}/src/package.xml"/>  
+	</target> 
+		
+</project>

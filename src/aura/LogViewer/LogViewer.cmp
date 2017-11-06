@@ -1,0 +1,9 @@
+<aura:component >
+    <aura:attribute name="log" type="String" access="public"/>
+	<aura:attribute name="expandAll" type="Boolean" access="public" default="false"/>
+    <aura:attribute name="header" type="String" access="private"/>
+    <aura:attribute name="items" type="Object" access="private"/>
+	<aura:handler name="init" value="{!this}" action="{!c.init}" />
+	<aura:handler name="change" value="{!v.log}" action="{!c.init}"/>    
+    <lightning:tree items="{!v.items}" header="{!v.header}"/>
+</aura:component>

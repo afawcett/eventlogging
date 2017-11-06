@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">    
+    <aura:attribute name="record" type="Object"/>
+    <aura:attribute name="simpleRecord" type="Object"/>
+    <aura:attribute name="recordError" type="String"/>   
+    <force:recordData aura:id="recordLoader"
+                      recordId="{!v.recordId}"
+                      fields="Data__c"
+                      targetRecord="{!v.record}"
+                      targetFields="{!v.simpleRecord}"
+                      targetError="{!v.recordError}"
+                      />    
+    <lightning:card title="Log Viewer">
+        <p class="slds-p-horizontal--small">
+			<c:LogViewer log="{!v.simpleRecord.Data__c}" expandAll="true"/>	
+        </p>
+    </lightning:card>
+</aura:component>

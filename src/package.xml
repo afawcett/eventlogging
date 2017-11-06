@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Log</members>
+        <members>LogTest</members>
+        <members>SessionController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LogRecordViewer</members>
+        <members>LogStreamer</members>
+        <members>LogViewer</members>
+        <members>streaming</members>
+        <members>streamingDemo</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>EventLogger</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>LogRecording__c</members>
+        <members>Log__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>LogRecording__c</members>
+        <members>StreamingComponent</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Event_Logger_UtilityBar</members>
+        <members>Log_Recording_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Monitor_Logs-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>LogRecording__c-Log Alert Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>41.0</version>
+</Package>

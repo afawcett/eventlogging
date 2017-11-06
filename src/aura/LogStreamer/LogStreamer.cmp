@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+	<c:streaming channel="/event/Log__e" onMessage="{!c.handleMessage}"/>
+    {!v.body}
+</aura:component>
