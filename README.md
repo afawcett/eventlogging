@@ -5,3 +5,9 @@ Salesforce Logging framework powered by Platform Events
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
+Notes
+-----
+
+- Deploy My Domain
+- Assign Event Logger app to your Profile
