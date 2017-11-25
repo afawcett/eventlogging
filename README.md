@@ -6,6 +6,8 @@ Salesforce Logging framework powered by Platform Events
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
+Dreamforce 2017 Session, [Advanced Logging with Platform Events](https://www.youtube.com/watch?v=yYeurYnasVc)
+
 Notes
 -----
 
