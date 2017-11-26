@@ -1,4 +1,4 @@
-# Event Logging
+# Advanced Logging with Platform Events
 Salesforce Logging framework powered by Platform Events
 
 <a href="https://githubsfdeploy.herokuapp.com">
