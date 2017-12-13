@@ -71,7 +71,7 @@ public class Log {
         logLines.add(Log.root.scope);
         Log.root.flush(logLines, 1);
         reset();
-		return String.join(logLines, '/n');        
+		return String.join(logLines, '\n');        
     }
     
     /**
