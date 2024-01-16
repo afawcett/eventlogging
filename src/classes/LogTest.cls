@@ -16,7 +16,6 @@ private class LogTest {
         Log.emit();
         EventBus.publish(new Log__e(
                 Title__c = ' Data Upload Statistics',
-                Insertion_Statistics__c = true,
                 Data__c = DateTime.now() + 'hello'));
         Test.stopTest();
     		
